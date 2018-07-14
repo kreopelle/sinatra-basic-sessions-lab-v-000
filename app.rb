@@ -6,5 +6,8 @@ class App < Sinatra::Base
     set :session_secret, "pickles"
   end
 
-  
+  get '/' do
+    
+  end
+
 end
